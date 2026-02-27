@@ -1,0 +1,15 @@
+Star topology Observation: When PC0 pings PC1, the switch learns their locations. The ICMP packet goes directly from PC0 -> Switch -> PC1.
+Other PCs (PC2, PC3) do not see the traffic.
+
+Bus-like topology Observation: You will likely see Collisions (indicated by a small fire/explosion icon in Packet Tracer). Because hubs create a 
+single Collision Domain, only one device can successfully "talk" at a time.
+
+Ring topology Observation: The Ring-like topology demonstrates redundancy; while all switches are physically connected, Spanning Tree Protocol (STP) 
+will initially block one port (turning it orange) to prevent a logical loop.  In Task 4, disconnecting an active link causes a momentary ping failure 
+until the blocked port "heals" and turns green.  This proves that while a Star topology has a single point of failure, a Ring layout provides fault 
+tolerance by automatically rerouting traffic through an alternate path.
+
+Failure test Observation: We simulate a network failure by deleting a direct link between two switches in the ring. Initially, the ICMP ping will fail as the primary 
+path is broken, but Spanning Tree Protocol (STP) will detect the outage and transition the previously "blocked" (orange) port to a "forwarding" (green) state. 
+This transition demonstrates fault tolerance, as the network automatically "heals" by rerouting traffic through the remaining switches. Consequently, 
+communication is restored without manual reconfiguration, proving that redundant topologies prevent total network collapse during hardware or cable failures.
