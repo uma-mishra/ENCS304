@@ -6,11 +6,11 @@
 ## Student Details  
 
 - **University:** K.R. Mangalam University  
-- **Program:** B.Tech CSE (AI & ML) – SOET  
+- **Program:** B.Tech CSE (AI & ML) E – SOET  
 - **Student Name:** Uma Mishra  
 - **Roll Number:** 2301730304   
 - **Subject Code:** ENCS304  
-- **Submitted To:** Mr. Aijaz Mohammed  
+- **Submitted To:** Mr. Aijaz Mohammad 
 
 ---
 
